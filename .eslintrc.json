@@ -41,13 +41,6 @@
     "import/parsers": { "@typescript-eslint/parser": [".ts", ".tsx"] }
   },
   "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "parser": "flow",
-        "endOfLine": "auto"
-      }
-    ],
     "@typescript-eslint/no-unsafe-call": "warn",
     "@typescript-eslint/no-unsafe-return": "warn",
     "@typescript-eslint/no-unsafe-argument": "warn",
